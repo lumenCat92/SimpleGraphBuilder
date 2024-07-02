@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:LumenCat92="LumenCat92" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/SimpleGraphBuilder/Editor/Source/SimpleGraphBuilder.uss?fileID=7433441132597879392&amp;guid=80e6c09687964114e8a60b779f905709&amp;type=3#SimpleGraphBuilder" />
+    <uie:Toolbar>
+        <uie:ToolbarButton text="LoadTree&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoadTree" />
+    </uie:Toolbar>
+    <LumenCat92:SimpleGraphBuilder.SplitView>
+        <ui:VisualElement style="flex-grow: 1;">
+            <uie:ObjectField label="Object Field" name="NodeTree" type="LumenCat92.SimpleGraphBuilder.NodeGraph, lumencat92.simplegraphbuilder" style="flex-direction: column;" />
+            <uie:PropertyField />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <LumenCat92:SimpleGraphBuilder.SimpleGraphBuilderView focusable="true" name="SimpleGraphBuilderView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </LumenCat92:SimpleGraphBuilder.SplitView>
+</ui:UXML>

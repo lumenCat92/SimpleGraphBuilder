@@ -1,0 +1,11 @@
+{
+  "name": "com.lumencat92.simplegraph",
+  "version": "1.0.0",
+  "displayName": "Simple Graph Builder",
+  "description": "Building Tree for Node Connection",
+  "unity": "2023.2",
+  "author": {
+    "name": "LumenCat92",
+    "email": "LumenCat92@gmail.com"
+  }
+}

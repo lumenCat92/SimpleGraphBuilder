@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="node-border" style="background-color: rgb(56, 56, 56); min-width: 100px; min-height: 100px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; max-width: 200px; justify-content: center; align-self: center;">
+        <ui:VisualElement name="title">
+            <ui:Label name="title-label" class="unity-text-element unity-label" />
+            <ui:VisualElement name="title-button-container" style="flex-direction: row;">
+                <ui:VisualElement name="collapse-button">
+                    <ui:VisualElement name="icon" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <uie:ObjectField type="UnityEngine.Object, UnityEngine.CoreModule" name="ScriptableObjInput" style="max-width: none; max-height: none; left: 0; right: 0; display: flex; justify-content: center; position: relative; width: 98%; align-self: flex-start;" />
+        <ui:VisualElement name="contents" style="flex-direction: column; justify-content: space-around; align-items: stretch; align-self: stretch; left: 0; right: 0; width: 100%;">
+            <ui:VisualElement name="divider" class="horizontal" style="display: flex;" />
+            <ui:VisualElement name="top" style="flex-direction: row; align-items: stretch; justify-content: space-between; align-self: stretch; left: 0; right: 0;">
+                <ui:VisualElement name="input" />
+                <ui:VisualElement name="divider" class="vertical" style="display: flex;" />
+                <ui:VisualElement name="output" style="flex-direction: column; display: flex;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" style="left: 0; top: 0; right: 0; bottom: 0; position: relative; max-width: none; max-height: none; background-color: rgba(13, 43, 255, 0); -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; border-left-color: rgb(0, 200, 255); border-right-color: rgb(0, 200, 255); border-top-color: rgb(0, 200, 255); border-bottom-color: rgb(0, 200, 255); transition-property: none; min-width: auto; min-height: auto; scale: 1 1;" />
+</ui:UXML>
